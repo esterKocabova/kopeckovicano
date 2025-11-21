@@ -1,15 +1,25 @@
+@font-face {
+    font-family: 'FreeSerif';
+    src: url('../fonts/FreeSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SimpleSerenity';
+    src: url('../fonts/simple-serenity-script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0px;    
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 #container {
     width: 100%;
     margin: 0px auto;
 }
-
 .navbar-top {
     position: absolute;
     position: fixed;
@@ -18,7 +28,6 @@
     z-index: 1;
     margin-top: 1rem;
 }
-
 li.nav-item{
     display: block;
     text-align: right;
@@ -27,42 +36,34 @@ li.nav-item{
     list-style-type: decimal;
     color: #262626;
 }
-
 li.nav-item:hover{
     background: linear-gradient(to right, rgba(228, 250, 250, 0.634),  rgba(252, 230, 233, 0.825), rgba(252, 244, 211, 0.58));
 }
-
 li.nav-item a {
     color: #262626;
     text-decoration: none;
     padding: 1rem;
     cursor: pointer;
 }
-
 .navbar {
     align-items: center;
     padding: 0x;    
 }
-
 .nav-menu {
     float: right;
     align-items: center;
     width: 200px;
 }
-
 .nav-link {
     transition: 0.7s ease;
 }
-
 .nav-link:hover {
     font-weight: bold;
 }
-
 .hamburger{
     display: none;
     cursor: pointer;
 }
-
 .bar{
     display: block; 
     width: 25px;
@@ -73,7 +74,6 @@ li.nav-item a {
     background-color: #262626d4;
     border-radius: 10px;
 }
-
 #jan-a-eliska {
     height: 100vh;
 }
@@ -82,34 +82,28 @@ li.nav-item a {
     padding-bottom: 3rem;
     padding-top: 2rem;
 }
-
 h1{
     color: rgb(78, 78, 78);
     text-align: center;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'SimpleSerenity';
     padding-top: 150px;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 100;
+    padding: 16px;
 }
-
 .animace{
     padding-top: 150px;
 }
 .animace h1{
     padding-top: 0;
 }
-
 span.inicialy {
     font-family: 'Playfair Display', serif;
     font-size: 150px;
-
 }
-
-
 #den-d h2{
     padding-top: 1rem;
 }
-
 .text-na-stred h2, .text-dress-code h2, h2{
     font-family: 'Playfair Display', serif;
     font-size: 32px ;
@@ -119,7 +113,6 @@ span.inicialy {
     color: rgb(78, 78, 78);
     padding-bottom: 1rem;
 }
-
 h3{
     padding-top: 1.5rem;
     padding-bottom: 1rem;
@@ -129,7 +122,6 @@ h3{
     font-family: 'Playfair Display', serif;
     color: rgb(70, 69, 69);
 }
-
 h4{
     padding-top: 0;
     padding-bottom: 0.5rem;
@@ -139,7 +131,6 @@ h4{
     font-family: 'Playfair Display', serif;
     color: #457c8d;
 }
-
 p{
     text-align: center;
     font-family: 'Barlow', sans-serif;
@@ -148,9 +139,7 @@ p{
     margin-bottom: 2rem;
     margin: 0 auto;
  }
-
 /* my-dva */
-
 .background-pattern{
     background-image: url(../img/image-from-rawpixel-id-2415273-jpeg.jpg);
     background-size: contain;
@@ -160,7 +149,6 @@ p{
     height: 100%;
     z-index: -1;
 }
-
 .background-cover{
     background-size: cover;
     background: linear-gradient(rgba(255, 255, 255, 0.517),white);
@@ -170,28 +158,24 @@ p{
     padding-bottom: 0;
     align-items: center;
 }
-
 #my-dva {
     background: linear-gradient(white, rgb(190, 209, 213));
 }
 /* .background{
     background:linear-gradient(rgb(190, 209, 213), white ) ;
 } */
-
 .photo-grid{
     display: grid;
     margin-left: 1rem;
     margin-right:1rem;
     gap: 2rem;
 }
-
 img.photo {
     width: 90vw;
     margin: 0 auto;
     opacity: 100%;
     border: 0.5px solid goldenrod;
 }
-
 .cit-1 p, .cit-2 p{
     text-align: center;
     font-family: 'Barlow', sans-serif;
@@ -199,13 +183,11 @@ img.photo {
     color: rgb(47, 47, 47);
     padding: 2rem;
 }  
-
 #den-d{
     width: 100%;
     padding: 0px 20px;
     background: linear-gradient(white, white);
 }
-
 .dend-background-img{
     height: 300px;
     width: 300px;
@@ -218,7 +200,6 @@ img.photo {
     background-repeat: no-repeat;
     display: block;
 }
-
 img{
     width: 100px;
     margin: 2rem 6rem 0rem 6rem;
@@ -227,7 +208,6 @@ img{
 .dend p{
     padding-top: 0;
 }
-
 .text-obrad{
     font-family: 'Playfair Display', serif;
     padding: 0 0rem 0rem 0rem ;
@@ -238,7 +218,6 @@ img{
     width: 200px;
     margin: 0 auto;
 }
-
 .pattern-cover {
     background-color: white;
 }
@@ -251,11 +230,9 @@ img{
 .myMap{
     padding-top: 1rem;
 }
-
 .bg-cover-container{
     background-color: rgba(255, 255, 255, 0.633);
 }
-
 /*-------------------------------------------------------------------------
  program
  ------------------------------------------------------------------------- */
@@ -264,9 +241,7 @@ img{
     /* background: linear-gradient(white, transparent); */
     background-color: white;
     padding-bottom: 3rem;
-
 }
-
 .program-text{
     width: 320px;
     margin: 0 auto;
@@ -274,32 +249,25 @@ img{
     border-left: 0.5px solid goldenrod;
     padding-bottom: 1rem;
 }
-
 .program-text p{
     text-align: left;
     padding-left: 2rem;
 }
-
 .program-text h2{
     padding: 1rem 0;
     padding-bottom: 2rem;
-
 }
-
 span.bold{
     font-weight: 600;
 }
-
 #doprava {
     background-color: rgb(190, 209, 213, 0.33);
     /* background: linear-gradient(white,  rgb(190, 209, 213)); */
     color: white;
 }
-
 .grid-doprava{
     display: grid;
 }
-
 img.photo-van {
     width: 100vw;
     height: 100%;
@@ -316,26 +284,21 @@ img.photo-van {
     background-size: cover;
     background-position: center;
 } */
-
 .text-pole{
     align-items: center;
     margin: 0 auto;
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
-
 .text-pole h2{
     padding-top: 2rem;
 }
-
 .text-pole p{
     padding: 0 1rem 1.5rem 1rem;
 }
-
 .a-mapa{
     font-weight: 700;
 }
-
 /* oramovani */
 .oramovani{
     margin: 1rem 1rem;
@@ -357,18 +320,14 @@ a{
     text-decoration: none;
     color: #457c8d;
 }
-
 .v-mape{
     font-weight: bold;
 }
-
 a:hover{
     font-weight: bold;
     shadow: 0px 5px 15px #457c8d5a;
 }
-
 /* tlačítko na formulář */
-
 .AF{
     display: block;
     margin: 0 auto;
@@ -391,7 +350,6 @@ a:hover{
     scroll-behavior: smooth;
     padding: 1rem 3rem;
 }
-
 .AF:hover, .AF:active, .AF:focus-within{
     font-size: 15PX;
     font-weight: bold;
@@ -400,25 +358,20 @@ a:hover{
     transition-duration: 500ms;
     cursor: pointer;
 }
-
 .AF A:hover{
     font-weight: 100;
     color: #3e3e3e;
 }
-
-
 /* dress-code */
 #dress-code{
     width: 100%;
     margin: 0 auto;
 }
-
 .text-dress-code{
     margin: 0 auto;
     /* padding-bottom: 3rem;
     padding-top: 2rem; */
 }
-
 .dress-code-hranice{
     min-height: 450px;
 }
@@ -436,7 +389,6 @@ a:hover{
     height: 100%;
     min-height: 312px;
 }
-
 .pruhledna-vrstva{
     background-color: rgba(255, 255, 255, 0.812);
     margin: 0 1rem;
@@ -444,7 +396,6 @@ a:hover{
     border-bottom: none;
     padding: 2rem 1rem;
 }
-
 .kruhy{
     width: 300px;
     display: flex;
@@ -453,28 +404,24 @@ a:hover{
     margin-top: 3rem;
     margin-bottom: 0;
 }
-
 .kruh_zluty{
     width: 70px;
     height: 70px;
     background-color: rgb(252, 248, 186);
     border-radius: 50%;
 }
-
 .kruh_ruzovy{
     width: 70px;
     height: 70px;
     background-color: rgb(252, 230, 233);
     border-radius: 50%;
 }
-
 .kruh_modry{
     width: 70px;
     height: 70px;
     background-color:rgb(226, 239, 254);
     border-radius: 50%;
 }
-
 .kruh_matovy{
     width: 70px;
     height: 70px;
@@ -505,7 +452,6 @@ img.dary {
     margin: 0 auto;
     opacity: 100%;
 }
-
 /*  ------------------------------------------------------------------------- 
 svatebni menu 
  ------------------------------------------------------------------------- */
@@ -514,7 +460,6 @@ svatebni menu
     width: 100%;
     margin: 0 auto;
 }
-
 .svatebni-menu-bg-img{
     background-image: url("../img/table.jpg");
     background-size: cover;
@@ -523,7 +468,6 @@ svatebni menu
     height: 100%;
     min-height: 700px;
 }
-
 #svatebni-menu-target{
     position: relative;
     display: inline-block;
@@ -531,18 +475,14 @@ svatebni menu
     width: 50px;
     height: 372px;   
 }
-
-
 #dulezite-kontakty{
     background-color: white;
     margin-bottom: 0;
 }
-
 #dulezite-kontakty h2{
     padding-bottom: 1rem;
     padding-top: 3rem;
 }
-
 .flexbox{
     display: flex;
     flex-direction: row;
@@ -554,7 +494,6 @@ svatebni menu
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
 .flex-content {
     background-color: rgb(190, 209, 213, 0.33);
     min-width: 23rem;
@@ -567,7 +506,6 @@ svatebni menu
     border-radius: 50%;
     padding-top: 30px;
 }
-
 .flex-content.dotazy h3{
     font-size: 40px;
 }
@@ -576,29 +514,24 @@ svatebni menu
     font-size: 0.9em;
     padding-top: 1rem;
 }
-
 .contact p{
     padding: 0;
 }
-
 .tesime {
     margin-top: 0;
     background: linear-gradient(rgb(190, 209, 213), white);
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
-
 svg {
     display: block;
     width: 100px;
     margin: 0 auto;
 }
-
 .tesime p {
     padding: 2rem;
     padding-top: 1rem;
 }
-
 .my-tri{
     background-image: url(../img/DSC06159.jpg);
     background-size: cover;
@@ -611,8 +544,6 @@ svg {
     margin: auto;
     border: 0.5px solid goldenrod;
 }
-
-
 /***-------------------------------------------------------------------------------------
 RSVP
 ---------------------------------------------------------------------------------------***/
@@ -620,15 +551,12 @@ RSVP
     width: 100%;
     margin: 0 auto;
 }
-
 .bg-cover{
     background: linear-gradient(white, rgb(190, 209, 213));
 }
-
 .bg-cover h2{
     padding-top: 2rem;
 }
-
 .form{
     padding-top: 1rem;
     max-width: 600px;
@@ -638,18 +566,15 @@ RSVP
     font-family: 'Barlow', sans-serif; 
     padding-bottom: 3rem;
 }
-
 .form p{
     color: #FFFFFF;
 }
-
 fieldset{
     margin: 1rem 0px;
     padding: 1rem;
     border: 0.5px solid goldenrod;
     background-color: #457c8d;
 }
-
 legend{
     border: 0.5px solid white;
     padding: 0.5rem 3rem;
@@ -659,20 +584,16 @@ legend{
     margin: 0 auto;
     font-family:  'Barlow', sans-serif;
 }
-
 .vyber-polevka{
     text-align: center;
     padding-left: 1rem;
 }
-
 .padding-top-none{
     padding-top: 0;
 }
-
 select{
     font-family: 'Barlow', sans-serif;
 }
-
 .form input[type="text"], input[type="email"], input[type="spam"]{
     text-align: center;
     color: rgb(69, 70, 70);
@@ -686,29 +607,24 @@ select{
     padding: 15px 10px;
     outline: none;
 }
-
 .form input[type="text"]:hover,  input[type="email"]:hover, input[type="spam"]:hover, textarea:hover{
     border: 0.5px solid rgb(140, 119, 2);
     box-shadow: inset 0 0 5px #aed8e4;
     padding: 1rem 0.8rem;
 }
-
 .form input[type="text"]:focus-within,  input[type="email"]:focus-within, input[type="spam"]:focus-within{
     border: 0.5px solid goldenrod;
     box-shadow:  0 0 10px #9fdef1;
     padding: 1rem 0.8rem;
 }
-
 .form input[type="radio"]{
     margin: 0.5rem 0.5rem;
     cursor: pointer;
 }
-
 form a{
     color: #e1f4fa;
     font-weight: 500;
 }
-
 textarea{
     font-family: 'Barlow', sans-serif;
     width: 80%;
@@ -720,17 +636,14 @@ textarea{
     padding: 1rem 0.7rem;
     outline: none;
 }
-
 textarea:hover{
     border: 0.5px solid rgb(244, 241, 221);
     box-shadow: inset 0 0 5px #aed8e4;
 }
-
 textarea:focus-within{
     border: 0.5px solid rgb(140, 119, 2);
     box-shadow:  0 0 10px #9fdef1;
 }
-
 .form input[type="submit"]{
     width: 100%;
     background-color:  #457c8d;
@@ -745,8 +658,6 @@ textarea:focus-within{
     font-family: 'Barlow', sans-serif; 
     border-radius: 0.33rem;
 }
-
-
 .form input[type="submit"]:hover{
     width: 100%;
     background: linear-gradient(to right, rgba(228, 250, 250, 0.634),  rgba(252, 230, 233, 0.825), rgba(252, 244, 211, 0.58));
@@ -755,15 +666,12 @@ textarea:focus-within{
     transition: 500ms;
     cursor: pointer;
 }
-
-
 /***patička***/
 footer{
     width: 100%;
     height: 70px;
     background-color: white;
 }
-
 footer p{
     padding-top: 1rem;
     text-align: center;
@@ -771,4 +679,3 @@ footer p{
     font-size: 75%;
     color: rgb(57, 54, 55);
 }
-
