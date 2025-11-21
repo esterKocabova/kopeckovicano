@@ -1,4 +1,3 @@
 # Kopeckovicano
 wedding website
 ♡
-<!-- rebuild -->
