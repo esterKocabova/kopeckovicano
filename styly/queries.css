@@ -1,0 +1,156 @@
+@media only screen and (min-width: 1040px)
+{
+    .background-cover{
+        height: 100vh;
+    }
+*{
+    font-size: 1,25em;
+}
+
+.text-na-stred{
+    margin: 0 auto;
+}
+
+.flexbox{
+    width: 1100px;
+
+}
+
+.form{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.pruhledna-vrstva{
+    max-width: 800px;
+    margin: 0 auto;
+}
+}
+
+/*dress-code-kruhy*/
+@media only screen and (min-width: 600px){
+
+    #svatebni-dary {
+        padding: 4rem auto
+    }
+    .photo-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    img.photo {
+        width: 30vw;
+    }
+
+.grid-doprava{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.5rem;
+}
+    img.photo-van {
+        width: 35vw;
+        opacity: 100%;
+        margin: 0;
+        padding: 0;
+    }
+#dress-code-target{
+    margin-top: 70px;
+    height: 320px;
+}
+.dress-code-bg-img{
+    min-height: 800px;    
+}
+
+.navigace{
+    position: absolute;
+    opacity: hidden;
+}
+
+.oramovani{
+    margin: 4rem 3rem;
+}
+
+.kruhy{
+    width:550px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+
+.kruh_zluty, .kruh_ruzovy, .kruh_modry, .kruh_matovy{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.flexbox{
+    max-width: 90vw;
+}
+.form input[type="text"], input[type="email"], input[type="spam"], textarea{
+    width: 60%;
+}
+ h1{
+        padding-top: 150px;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    
+    span.inicialy{
+        font-family: 'Playfair Display', serif;
+        font-size: 200px;
+    }
+
+}
+
+@media only screen and (min-width:900){
+    .ormamovani{
+        max-height: 90vh;
+    }
+}
+
+
+@media (max-width: 900px){
+   
+    .header{
+        padding: 1rem 0;
+        width: 35px;
+    }
+    .hamburger{
+        padding: 1rem 1rem;
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        gap: 0;
+        padding: 3rem 0;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.884);
+        width: 100%;
+        text-align: center;
+        transition: 0.6s;
+    }
+
+    li.nav-item {
+        text-align: center;
+        padding: 0.75rem 0;
+
+    }
+
+    .nav-menu.active{
+        right: 0;
+    }
+}

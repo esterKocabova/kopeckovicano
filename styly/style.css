@@ -1,0 +1,774 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.navbar-top {
+    position: absolute;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.466);
+    right: 0;
+    z-index: 1;
+    margin-top: 1rem;
+}
+
+li.nav-item{
+    display: block;
+    text-align: right;
+    font-family: 'Barlow', sans-serif;
+    padding: 1rem 0;
+    list-style-type: decimal;
+    color: #262626;
+}
+
+li.nav-item:hover{
+    background: linear-gradient(to right, rgba(228, 250, 250, 0.634),  rgba(252, 230, 233, 0.825), rgba(252, 244, 211, 0.58));
+}
+
+li.nav-item a {
+    color: #262626;
+    text-decoration: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.navbar {
+    align-items: center;
+    padding: 0x;    
+}
+
+.nav-menu {
+    float: right;
+    align-items: center;
+    width: 200px;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block; 
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #262626d4;
+    border-radius: 10px;
+}
+
+#jan-a-eliska {
+    height: 100vh;
+}
+.text-na-stred{
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+h1{
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    padding-top: 150px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.animace{
+    padding-top: 150px;
+}
+.animace h1{
+    padding-top: 0;
+}
+
+span.inicialy {
+    font-family: 'Playfair Display', serif;
+    font-size: 150px;
+
+}
+
+
+#den-d h2{
+    padding-top: 1rem;
+}
+
+.text-na-stred h2, .text-dress-code h2, h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px ;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(78, 78, 78);
+    padding-bottom: 1rem;
+}
+
+h3{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: rgb(70, 69, 69);
+}
+
+h4{
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+    color: #457c8d;
+}
+
+p{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7;
+    color: rgb(47, 47, 47);
+    margin-bottom: 2rem;
+    margin: 0 auto;
+ }
+
+/* my-dva */
+
+.background-pattern{
+    background-image: url(../img/image-from-rawpixel-id-2415273-jpeg.jpg);
+    background-size: contain;
+    position: fixed;
+    width: 100%;
+    opacity: 50%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-cover{
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.517),white);
+    height: 100vh;
+    width:100%;  
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+#my-dva {
+    background: linear-gradient(white, rgb(190, 209, 213));
+}
+/* .background{
+    background:linear-gradient(rgb(190, 209, 213), white ) ;
+} */
+
+.photo-grid{
+    display: grid;
+    margin-left: 1rem;
+    margin-right:1rem;
+    gap: 2rem;
+}
+
+img.photo {
+    width: 90vw;
+    margin: 0 auto;
+    opacity: 100%;
+    border: 0.5px solid goldenrod;
+}
+
+.cit-1 p, .cit-2 p{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5;
+    color: rgb(47, 47, 47);
+    padding: 2rem;
+}  
+
+#den-d{
+    width: 100%;
+    padding: 0px 20px;
+    background: linear-gradient(white, white);
+}
+
+.dend-background-img{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 2rem auto;
+    border: 0.5px solid goldenrod;
+    box-shadow: 0.1rem 0.2rem 1rem 0.1rem #aaaaaa7d;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+img{
+    width: 100px;
+    margin: 2rem 6rem 0rem 6rem;
+    opacity: 80%;
+}
+.dend p{
+    padding-top: 0;
+}
+
+.text-obrad{
+    font-family: 'Playfair Display', serif;
+    padding: 0 0rem 0rem 0rem ;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.pattern-cover {
+    background-color: white;
+}
+/* ------------------------------------------------------------------------- 
+ mapa
+  -------------------------------------------------------------------------  */
+#mapa{
+    background-color: white;
+}
+.myMap{
+    padding-top: 1rem;
+}
+
+.bg-cover-container{
+    background-color: rgba(255, 255, 255, 0.633);
+}
+
+/*-------------------------------------------------------------------------
+ program
+ ------------------------------------------------------------------------- */
+#program{
+    padding-top: 3rem;
+    /* background: linear-gradient(white, transparent); */
+    background-color: white;
+    padding-bottom: 3rem;
+
+}
+
+.program-text{
+    width: 320px;
+    margin: 0 auto;
+    text-align: left;
+    border-left: 0.5px solid goldenrod;
+    padding-bottom: 1rem;
+}
+
+.program-text p{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.program-text h2{
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+
+}
+
+span.bold{
+    font-weight: 600;
+}
+
+#doprava {
+    background-color: rgb(190, 209, 213, 0.33);
+    /* background: linear-gradient(white,  rgb(190, 209, 213)); */
+    color: white;
+}
+
+.grid-doprava{
+    display: grid;
+}
+
+img.photo-van {
+    width: 100vw;
+    height: 100%;
+    opacity: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* .doprava-bg-img{
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    background-image: url("../img/vintage-van-4288994_1920.jpg");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+.text-pole{
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.text-pole h2{
+    padding-top: 2rem;
+}
+
+.text-pole p{
+    padding: 0 1rem 1.5rem 1rem;
+}
+
+.a-mapa{
+    font-weight: 700;
+}
+
+/* oramovani */
+.oramovani{
+    margin: 1rem 1rem;
+    background-color: #FFFFFF;
+    height: auto;
+    border: 0.5px solid goldenrod;
+    box-shadow: 0.3rem 0.3rem 3rem 0.2rem #aaaaaa7d;
+    margin-bottom: 3rem;
+}
+/* ubytovani */
+#ubytovani{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 0 auto;
+    background-color: white;
+    /* background: linear-gradient(transparent,white); */
+}
+a{
+    text-decoration: none;
+    color: #457c8d;
+}
+
+.v-mape{
+    font-weight: bold;
+}
+
+a:hover{
+    font-weight: bold;
+    shadow: 0px 5px 15px #457c8d5a;
+}
+
+/* tlačítko na formulář */
+
+.AF{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    width: 12.5rem;
+    height: 50px;
+    border: 0.5px solid #457c8d;
+    background-color:#457c8d;
+    box-shadow: 0px 0.3rem 1rem #457c8d5a;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.AF a{
+    font-size: 15PX;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    color: #f8f9f9;
+    scroll-behavior: smooth;
+    padding: 1rem 3rem;
+}
+
+.AF:hover, .AF:active, .AF:focus-within{
+    font-size: 15PX;
+    font-weight: bold;
+    border: 0.5px solid white;
+    background: linear-gradient(to right, rgba(228, 250, 250, 0.634),  rgba(252, 230, 233, 0.825), rgba(252, 244, 211, 0.58));
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+.AF A:hover{
+    font-weight: 100;
+    color: #3e3e3e;
+}
+
+
+/* dress-code */
+#dress-code{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-dress-code{
+    margin: 0 auto;
+    /* padding-bottom: 3rem;
+    padding-top: 2rem; */
+}
+
+.dress-code-hranice{
+    min-height: 450px;
+}
+#dress-code-target{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 230px;
+}
+.dress-code-bg-img{
+    background-image: url("../img/dress-code.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    min-height: 312px;
+}
+
+.pruhledna-vrstva{
+    background-color: rgba(255, 255, 255, 0.812);
+    margin: 0 1rem;
+    border: 0.5px solid goldenrod;    
+    border-bottom: none;
+    padding: 2rem 1rem;
+}
+
+.kruhy{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.kruh_zluty{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(252, 248, 186);
+    border-radius: 50%;
+}
+
+.kruh_ruzovy{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(252, 230, 233);
+    border-radius: 50%;
+}
+
+.kruh_modry{
+    width: 70px;
+    height: 70px;
+    background-color:rgb(226, 239, 254);
+    border-radius: 50%;
+}
+
+.kruh_matovy{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(225, 243, 234);
+    border-radius: 50%;
+}
+/* ------------------------------------------------------------------------- 
+svatebni dary
+ -------------------------------------------------------------------------  */
+#svatebni-dary {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.text-svatebni-dary p{
+    padding: 0 1rem;
+    max-width: 700px;
+}
+.predel p {
+    color: goldenrod;
+    font-weight: 100;
+    font-size: 32px;
+}
+img.dary {
+    display: block;
+    width: 90vw;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+/*  ------------------------------------------------------------------------- 
+svatebni menu 
+ ------------------------------------------------------------------------- */
+#svatebni-menu{
+    margin-top: 2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.svatebni-menu-bg-img{
+    background-image: url("../img/table.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 700px;
+}
+
+#svatebni-menu-target{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    width: 50px;
+    height: 372px;   
+}
+
+
+#dulezite-kontakty{
+    background-color: white;
+    margin-bottom: 0;
+}
+
+#dulezite-kontakty h2{
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.flex-content {
+    background-color: rgb(190, 209, 213, 0.33);
+    min-width: 23rem;
+    max-width: 24rem;
+    aspect-ratio: 1/1;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+
+.flex-content.dotazy h3{
+    font-size: 40px;
+}
+.description p{
+    flex: 1 1 400px;
+    font-size: 0.9em;
+    padding-top: 1rem;
+}
+
+.contact p{
+    padding: 0;
+}
+
+.tesime {
+    margin-top: 0;
+    background: linear-gradient(rgb(190, 209, 213), white);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+svg {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.tesime p {
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+.my-tri{
+    background-image: url(../img/DSC06159.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 23rem;
+    max-width: 24rem;
+    aspect-ratio: 1/1;
+    vertical-align: top;
+    padding-top: 30px;
+    margin: auto;
+    border: 0.5px solid goldenrod;
+}
+
+
+/***-------------------------------------------------------------------------------------
+RSVP
+---------------------------------------------------------------------------------------***/
+#formular{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg-cover{
+    background: linear-gradient(white, rgb(190, 209, 213));
+}
+
+.bg-cover h2{
+    padding-top: 2rem;
+}
+
+.form{
+    padding-top: 1rem;
+    max-width: 600px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family: 'Barlow', sans-serif; 
+    padding-bottom: 3rem;
+}
+
+.form p{
+    color: #FFFFFF;
+}
+
+fieldset{
+    margin: 1rem 0px;
+    padding: 1rem;
+    border: 0.5px solid goldenrod;
+    background-color: #457c8d;
+}
+
+legend{
+    border: 0.5px solid white;
+    padding: 0.5rem 3rem;
+    color: rgb(88, 87, 87);
+    background-color: white;
+    box-shadow:5px 5px 5px #2e525d;
+    margin: 0 auto;
+    font-family:  'Barlow', sans-serif;
+}
+
+.vyber-polevka{
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.padding-top-none{
+    padding-top: 0;
+}
+
+select{
+    font-family: 'Barlow', sans-serif;
+}
+
+.form input[type="text"], input[type="email"], input[type="spam"]{
+    text-align: center;
+    color: rgb(69, 70, 70);
+    font-family: 'Barlow', sans-serif;
+    width: 80%;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: none;   
+    margin: 1.3rem Auto;
+    text-align: center;
+    padding: 15px 10px;
+    outline: none;
+}
+
+.form input[type="text"]:hover,  input[type="email"]:hover, input[type="spam"]:hover, textarea:hover{
+    border: 0.5px solid rgb(140, 119, 2);
+    box-shadow: inset 0 0 5px #aed8e4;
+    padding: 1rem 0.8rem;
+}
+
+.form input[type="text"]:focus-within,  input[type="email"]:focus-within, input[type="spam"]:focus-within{
+    border: 0.5px solid goldenrod;
+    box-shadow:  0 0 10px #9fdef1;
+    padding: 1rem 0.8rem;
+}
+
+.form input[type="radio"]{
+    margin: 0.5rem 0.5rem;
+    cursor: pointer;
+}
+
+form a{
+    color: #e1f4fa;
+    font-weight: 500;
+}
+
+textarea{
+    font-family: 'Barlow', sans-serif;
+    width: 80%;
+    border: 0.5px solid  white;
+    border-radius: 5px;
+    background-color: none;   
+    margin: 1.3rem Auto;
+    text-align: center;
+    padding: 1rem 0.7rem;
+    outline: none;
+}
+
+textarea:hover{
+    border: 0.5px solid rgb(244, 241, 221);
+    box-shadow: inset 0 0 5px #aed8e4;
+}
+
+textarea:focus-within{
+    border: 0.5px solid rgb(140, 119, 2);
+    box-shadow:  0 0 10px #9fdef1;
+}
+
+.form input[type="submit"]{
+    width: 100%;
+    background-color:  #457c8d;
+    color: white;
+    text-transform: uppercase;
+    border: 0.5px solid goldenrod;
+    display: block;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline: none;  
+    font-family: 'Barlow', sans-serif; 
+    border-radius: 0.33rem;
+}
+
+
+.form input[type="submit"]:hover{
+    width: 100%;
+    background: linear-gradient(to right, rgba(228, 250, 250, 0.634),  rgba(252, 230, 233, 0.825), rgba(252, 244, 211, 0.58));
+    color: #457c8d;
+    border: 0.5px solid rgb(254, 254, 254);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+/***patička***/
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+footer p{
+    padding-top: 1rem;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 75%;
+    color: rgb(57, 54, 55);
+}
+
