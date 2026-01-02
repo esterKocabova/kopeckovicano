@@ -1,17 +1,29 @@
-
-    var myText = 'Obřad bude probíhat dopoledne v kostele sv. Jana a Pavla ve Frýdku-Místku. Poté bude následovat přejezd na svatební hostinu na Chatě Dukle na Čeladné (20km). Přesný harmonogram bude brzy upřesněn na našem webu.';
-    var myArray = myText.split("");
-    var loopTimer;
-    var targetElement = document.getElementById("type_obrad");
-    // Clear existing text in the target element
+document.addEventListener('DOMContentLoaded', () => {
+  const targetElement = document.getElementById('type_obrad');
+  if (!targetElement) return;
+  const myText = '13. srpna 2026';
+  let loopTimer = null;
+  function startTyping() {
+    // reset
+    clearTimeout(loopTimer);
     targetElement.innerHTML = '';
+    let myArray = myText.split('');
     function frameLooper() {
-      if(myArray.length > 0) {
+      if (myArray.length > 0) {
         targetElement.innerHTML += myArray.shift();
-      } else {
-        clearTimeout(loopTimer);
-        return false;
+        loopTimer = setTimeout(frameLooper, 70);
       }
-      loopTimer = setTimeout(frameLooper, 70);
     }
     frameLooper();
+  }
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        startTyping(); // 👉 pokaždé znovu
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+  observer.observe(targetElement);
+});
