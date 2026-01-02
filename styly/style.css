@@ -512,17 +512,17 @@ svatebni menu
 }
 .flex-content {
     background-color: rgb(190, 209, 213, 0.33);
-    max-width: 100%;
+    max-width: 250px;
     aspect-ratio: 1/1;
     flex: 1 1 300px;
     display: flex;
     flex-direction: column;
     vertical-align: top;
     border-radius: 50%;
-    padding-top: 30px;
+    justify-content: center;
 }
-.flex-content.dotazy h3{
-    font-size: 40px;
+.flex-content h3{
+    padding-top: 0;
 }
 .description p{
     flex: 1 1 400px;
