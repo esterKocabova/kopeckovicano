@@ -19,9 +19,11 @@
 #container {
     width: 100%;
 }
-    p {
-        padding: 16px;
-    }
+p {
+    padding: 16px;
+    max-width: 600px;
+    margin: auto;
+}
 .navbar-top {
     position: absolute;
     position: fixed;
@@ -76,7 +78,7 @@ li.nav-item a {
     background-color: #262626d4;
     border-radius: 10px;
 }
-#jan-a-eliska {
+#kika-a-matej {
     height: 100vh;
 }
 .text-na-stred{
@@ -121,7 +123,7 @@ h3.save-the-date {
 h3.font-secondary {
         font-family: 'SimpleSerenity';
         text-transform: none;
-        font-size: 48px;
+        font-size: 60px;
         padding-inline: 16px;
 }
 h3{
@@ -203,7 +205,7 @@ img.photo {
 .dend-background-img{
     height: auto;
     width: 90%;
-    max-width: 500px;
+    max-width: 300px;
     background-color: white;
     margin: 2rem auto;
     border: 0.5px solid goldenrod;
@@ -228,9 +230,8 @@ img{
     padding: 10px 16px;
     line-height: 1.5;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 32PX;
     text-align: center;
-    font-weight: 300;
     width: 100%;
     margin: 0 auto;
 }
