@@ -127,5 +127,6 @@
     }
     .nav-menu.active{
         right: 0;
+        height: 100%;
     }
 }

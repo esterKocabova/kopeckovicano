@@ -18,8 +18,10 @@
 }
 #container {
     width: 100%;
-    margin: 0px auto;
 }
+    p {
+        padding: 16px;
+    }
 .navbar-top {
     position: absolute;
     position: fixed;
@@ -113,6 +115,15 @@ span.inicialy {
     color: rgb(78, 78, 78);
     padding-bottom: 1rem;
 }
+h3.save-the-date {
+    text-transform: none;
+}
+h3.font-secondary {
+        font-family: 'SimpleSerenity';
+        text-transform: none;
+        font-size: 48px;
+        padding-inline: 16px;
+}
 h3{
     padding-top: 1.5rem;
     padding-bottom: 1rem;
@@ -141,8 +152,9 @@ p{
  }
 /* my-dva */
 .background-pattern{
-    background-image: url(../img/image-from-rawpixel-id-2415273-jpeg.jpg);
-    background-size: contain;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: fixed;
     width: 100%;
     opacity: 50%;
@@ -159,7 +171,7 @@ p{
     align-items: center;
 }
 #my-dva {
-    background: linear-gradient(white, rgb(190, 209, 213));
+    background: linear-gradient(white, rgb(198,209,221));
 }
 /* .background{
     background:linear-gradient(rgb(190, 209, 213), white ) ;
@@ -181,7 +193,7 @@ img.photo {
     font-family: 'Barlow', sans-serif;
     line-height: 1.5;
     color: rgb(47, 47, 47);
-    padding: 2rem;
+    padding: 0 16px 2rem 16px;
 }  
 #den-d{
     width: 100%;
@@ -189,8 +201,9 @@ img.photo {
     background: linear-gradient(white, white);
 }
 .dend-background-img{
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 90%;
+    max-width: 500px;
     background-color: white;
     margin: 2rem auto;
     border: 0.5px solid goldenrod;
@@ -199,10 +212,12 @@ img.photo {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
+    padding-bottom: 20px;
 }
 img{
+    display: block;
     width: 100px;
-    margin: 2rem 6rem 0rem 6rem;
+    margin: auto;
     opacity: 80%;
 }
 .dend p{
@@ -210,12 +225,13 @@ img{
 }
 .text-obrad{
     font-family: 'Playfair Display', serif;
-    padding: 0 0rem 0rem 0rem ;
+    padding: 10px 16px;
+    line-height: 1.5;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     font-weight: 300;
-    width: 200px;
+    width: 100%;
     margin: 0 auto;
 }
 .pattern-cover {
@@ -334,14 +350,14 @@ a:hover{
     margin-top: 1.4rem;
     width: 12.5rem;
     height: 50px;
-    border: 0.5px solid #457c8d;
-    background-color:#457c8d;
+    border: 0.5px solid rgb(64,102,142);
+    background-color:rgb(64,102,142);
     box-shadow: 0px 0.3rem 1rem #457c8d5a;
     cursor: pointer;
     margin-bottom: 1rem;
 }
 .AF a{
-    font-size: 15PX;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
@@ -496,8 +512,7 @@ svatebni menu
 }
 .flex-content {
     background-color: rgb(190, 209, 213, 0.33);
-    min-width: 23rem;
-    max-width: 24rem;
+    max-width: 100%;
     aspect-ratio: 1/1;
     flex: 1 1 300px;
     display: flex;
@@ -513,6 +528,7 @@ svatebni menu
     flex: 1 1 400px;
     font-size: 0.9em;
     padding-top: 1rem;
+    max-width: 330px;
 }
 .contact p{
     padding: 0;
