@@ -580,6 +580,8 @@ svatebni menu
     background: linear-gradient(rgb(198,209,221), white);
     padding-bottom: 3rem;
     padding-top: 3rem;
+    position: relative;
+    z-index: 10000;
 }
 svg {
     display: block;
@@ -591,6 +593,8 @@ footer{
     width: 100%;
     height: 70px;
     background-color: white;
+    position: relative;
+    z-index: 10000;
 }
 footer p{
     padding-top: 1rem;
