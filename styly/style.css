@@ -53,11 +53,6 @@ li.nav-item a {
     align-items: center;
     padding: 0x;    
 }
-.nav-menu {
-    float: right;
-    align-items: center;
-    width: 200px;
-}
 .nav-link {
     transition: 0.7s ease;
 }
