@@ -15,6 +15,8 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-weight: 200;
+    scroll-padding-top: 50px;
 }
 #container {
     width: 100%;
@@ -23,6 +25,9 @@ p {
     padding: 16px;
     max-width: 600px;
     margin: auto;
+}
+strong {
+    font-weight: 500;
 }
 .navbar-top {
     position: absolute;
@@ -48,6 +53,10 @@ li.nav-item a {
     text-decoration: none;
     padding: 1rem;
     cursor: pointer;
+    font-weight: 200;
+}
+li.nav-item a:hover {
+    font-weight: 400;
 }
 .navbar {
     align-items: center;
@@ -82,7 +91,7 @@ li.nav-item a {
     padding-top: 2rem;
 }
 h1{
-    color: rgb(78, 78, 78);
+    color: rgb(28 50 71);
     text-align: center;
     font-family: 'SimpleSerenity';
     padding-top: 150px;
@@ -94,7 +103,7 @@ h1{
     padding-top: 150px;
 }
 .animace h1{
-    padding-top: 0;
+    padding-top: 150px;
 }
 span.inicialy {
     font-family: 'Playfair Display', serif;
@@ -185,6 +194,15 @@ img.photo {
     opacity: 100%;
     border: 0.5px solid goldenrod;
 }
+.photo-1 {
+    border-radius: 100px 0 0 0;
+}
+.photo-3 {
+    border-radius: 0 0 100px 0;
+}
+.photo-1 {
+    border-radius: 100px 0 0 0;
+}
 .cit-1 p, .cit-2 p{
     text-align: center;
     font-family: 'Barlow', sans-serif;
@@ -244,6 +262,9 @@ img{
 }
 .bg-cover-container{
     background-color: rgba(255, 255, 255, 0.633);
+}
+#map {
+    max-width: 100%;
 }
 /*-------------------------------------------------------------------------
  program
@@ -328,9 +349,10 @@ img.photo-van {
     background-color: white;
     /* background: linear-gradient(transparent,white); */
 }
-a{
+a {
     text-decoration: none;
     color: #457c8d;
+    font-weight: 500;
 }
 .v-mape{
     font-weight: bold;
@@ -351,6 +373,7 @@ a:hover{
     box-shadow: 0px 0.3rem 1rem #457c8d5a;
     cursor: pointer;
     margin-bottom: 1rem;
+    border-radius: 36px 0;
 }
 .AF a{
     font-size: 16px;
@@ -361,18 +384,27 @@ a:hover{
     color: #f8f9f9;
     scroll-behavior: smooth;
     padding: 1rem 3rem;
+    font-weight: 200;
 }
 .AF:hover, .AF:active, .AF:focus-within{
     font-size: 15PX;
-    font-weight: bold;
+    font-weight: 500;
     border: 0.5px solid white;
     background: linear-gradient(to right, rgba(228, 250, 250, 0.634),  rgba(252, 230, 233, 0.825), rgba(252, 244, 211, 0.58));
     transition-duration: 500ms;
     cursor: pointer;
+    color: #3e3e3e;
 }
 .AF A:hover{
-    font-weight: 100;
     color: #3e3e3e;
+    font-weight: 400;
+}
+.AF--2 {
+    border: 0.5px solid rgb(64,102,142);
+    background-color: transparent;
+}
+.AF--2 a {
+    color: rgb(64,102,142);
 }
 /* dress-code */
 #dress-code{
@@ -420,13 +452,13 @@ a:hover{
 .kruh_zluty{
     width: 70px;
     height: 70px;
-    background-color: rgb(252, 248, 186);
+    background-color: rgb(112,132,150);
     border-radius: 50%;
 }
 .kruh_ruzovy{
     width: 70px;
     height: 70px;
-    background-color: rgb(252, 230, 233);
+    background-color: rgb(162,195,220);
     border-radius: 50%;
 }
 .kruh_modry{
@@ -438,7 +470,7 @@ a:hover{
 .kruh_matovy{
     width: 70px;
     height: 70px;
-    background-color: rgb(225, 243, 234);
+    background-color: rgb(140,168,146);
     border-radius: 50%;
 }
 /* ------------------------------------------------------------------------- 
@@ -518,6 +550,12 @@ svatebni menu
     vertical-align: top;
     /* border-radius: 50%; */
     justify-content: center;
+}
+.flex-content--1 {
+    border-radius: 100px 0 0 0;
+}
+.flex-content--3 {
+    border-radius: 0 0 100px 0;
 }
 .flex-content h3{
     padding-top: 0;
