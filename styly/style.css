@@ -154,7 +154,7 @@ p{
  }
 /* my-dva */
 .background-pattern{
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
@@ -407,7 +407,8 @@ a:hover{
     min-height: 312px;
 }
 .pruhledna-vrstva{
-    background-color: rgba(255, 255, 255, 0.812);
+    background-color: rgba(255, 255, 255, 0.712);
+    backdrop-filter: blur(12px);
     margin: 0 1rem;
     border: 0.5px solid goldenrod;    
     border-bottom: none;
@@ -478,7 +479,7 @@ svatebni menu
     margin: 0 auto;
 }
 .svatebni-menu-bg-img{
-    background-image: url("../img/table.jpg");
+    background-image: url("../img/dukla/IMG_7404.jpeg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -512,14 +513,15 @@ svatebni menu
     padding-bottom: 3rem;
 }
 .flex-content {
-    background-color: rgb(190, 209, 213, 0.33);
+    background-color: rgb(195 215 237 / 22%);
+    border: 0.5px solid goldenrod;
     max-width: 250px;
     aspect-ratio: 1/1;
     flex: 1 1 300px;
     display: flex;
     flex-direction: column;
     vertical-align: top;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     justify-content: center;
 }
 .flex-content h3{
@@ -536,7 +538,7 @@ svatebni menu
 }
 .tesime {
     margin-top: 0;
-    background: linear-gradient(rgb(190, 209, 213), white);
+    background: linear-gradient(rgb(198,209,221), white);
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
@@ -544,144 +546,6 @@ svg {
     display: block;
     width: 100px;
     margin: 0 auto;
-}
-.tesime p {
-    padding: 2rem;
-    padding-top: 1rem;
-}
-.my-tri{
-    background-image: url(../img/DSC06159.jpg);
-    background-size: cover;
-    background-position: center;
-    min-width: 23rem;
-    max-width: 24rem;
-    aspect-ratio: 1/1;
-    vertical-align: top;
-    padding-top: 30px;
-    margin: auto;
-    border: 0.5px solid goldenrod;
-}
-/***-------------------------------------------------------------------------------------
-RSVP
----------------------------------------------------------------------------------------***/
-#formular{
-    width: 100%;
-    margin: 0 auto;
-}
-.bg-cover{
-    background: linear-gradient(white, rgb(190, 209, 213));
-}
-.bg-cover h2{
-    padding-top: 2rem;
-}
-.form{
-    padding-top: 1rem;
-    max-width: 600px;
-    color: white;
-    margin: auto;
-    text-align: center;
-    font-family: 'Barlow', sans-serif; 
-    padding-bottom: 3rem;
-}
-.form p{
-    color: #FFFFFF;
-}
-fieldset{
-    margin: 1rem 0px;
-    padding: 1rem;
-    border: 0.5px solid goldenrod;
-    background-color: #457c8d;
-}
-legend{
-    border: 0.5px solid white;
-    padding: 0.5rem 3rem;
-    color: rgb(88, 87, 87);
-    background-color: white;
-    box-shadow:5px 5px 5px #2e525d;
-    margin: 0 auto;
-    font-family:  'Barlow', sans-serif;
-}
-.vyber-polevka{
-    text-align: center;
-    padding-left: 1rem;
-}
-.padding-top-none{
-    padding-top: 0;
-}
-select{
-    font-family: 'Barlow', sans-serif;
-}
-.form input[type="text"], input[type="email"], input[type="spam"]{
-    text-align: center;
-    color: rgb(69, 70, 70);
-    font-family: 'Barlow', sans-serif;
-    width: 80%;
-    border: 0.5px solid white;
-    border-radius: 5px;
-    background-color: none;   
-    margin: 1.3rem Auto;
-    text-align: center;
-    padding: 15px 10px;
-    outline: none;
-}
-.form input[type="text"]:hover,  input[type="email"]:hover, input[type="spam"]:hover, textarea:hover{
-    border: 0.5px solid rgb(140, 119, 2);
-    box-shadow: inset 0 0 5px #aed8e4;
-    padding: 1rem 0.8rem;
-}
-.form input[type="text"]:focus-within,  input[type="email"]:focus-within, input[type="spam"]:focus-within{
-    border: 0.5px solid goldenrod;
-    box-shadow:  0 0 10px #9fdef1;
-    padding: 1rem 0.8rem;
-}
-.form input[type="radio"]{
-    margin: 0.5rem 0.5rem;
-    cursor: pointer;
-}
-form a{
-    color: #e1f4fa;
-    font-weight: 500;
-}
-textarea{
-    font-family: 'Barlow', sans-serif;
-    width: 80%;
-    border: 0.5px solid  white;
-    border-radius: 5px;
-    background-color: none;   
-    margin: 1.3rem Auto;
-    text-align: center;
-    padding: 1rem 0.7rem;
-    outline: none;
-}
-textarea:hover{
-    border: 0.5px solid rgb(244, 241, 221);
-    box-shadow: inset 0 0 5px #aed8e4;
-}
-textarea:focus-within{
-    border: 0.5px solid rgb(140, 119, 2);
-    box-shadow:  0 0 10px #9fdef1;
-}
-.form input[type="submit"]{
-    width: 100%;
-    background-color:  #457c8d;
-    color: white;
-    text-transform: uppercase;
-    border: 0.5px solid goldenrod;
-    display: block;
-    margin: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    outline: none;  
-    font-family: 'Barlow', sans-serif; 
-    border-radius: 0.33rem;
-}
-.form input[type="submit"]:hover{
-    width: 100%;
-    background: linear-gradient(to right, rgba(228, 250, 250, 0.634),  rgba(252, 230, 233, 0.825), rgba(252, 244, 211, 0.58));
-    color: #457c8d;
-    border: 0.5px solid rgb(254, 254, 254);
-    transition: 500ms;
-    cursor: pointer;
 }
 /***patička***/
 footer{
@@ -696,3 +560,34 @@ footer p{
     font-size: 75%;
     color: rgb(57, 54, 55);
 }
+.footer__jmena {
+    font-family: 'SimpleSerenity';
+    font-size: 36px;
+    text-align: center;
+}
+  .scroll-arrow{
+    position: fixed;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.35);
+    background: rgb(170 177 193 / 35%);
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 9999;
+    backdrop-filter: blur(6px);
+    display: grid;
+    place-items: center;
+  }
+  /* jemné „poskakování“ ať je jasné, že lze scrollovat */
+  .scroll-arrow{
+    animation: bounce 1.4s infinite;
+  }
+  @keyframes bounce{
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50%      { transform: translateX(-50%) translateY(-6px); }
+  }
