@@ -33,7 +33,7 @@ strong {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.466);
     right: 0;
-    z-index: 1;
+    z-index: 1000;
     margin-top: 1rem;
 }
 li.nav-item{
@@ -70,6 +70,8 @@ li.nav-item a:hover {
 .hamburger{
     display: none;
     cursor: pointer;
+    position: relative;
+    z-index: 1000;
 }
 .bar{
     display: block; 
@@ -581,7 +583,7 @@ svatebni menu
     padding-bottom: 3rem;
     padding-top: 3rem;
     position: relative;
-    z-index: 10000;
+    z-index: 100;
 }
 svg {
     display: block;
@@ -594,7 +596,7 @@ footer{
     height: 70px;
     background-color: white;
     position: relative;
-    z-index: 10000;
+    z-index: 100;
 }
 footer p{
     padding-top: 1rem;
@@ -621,7 +623,7 @@ footer p{
     color: #fff;
     font-size: 22px;
     cursor: pointer;
-    z-index: 9999;
+    z-index: 99;
     backdrop-filter: blur(6px);
     display: grid;
     place-items: center;
