@@ -264,6 +264,7 @@ img{
   -------------------------------------------------------------------------  */
 #mapa{
     background-color: white;
+    max-height: 90vh;
 }
 .myMap{
     padding-top: 1rem;
