@@ -264,7 +264,7 @@ img{
   -------------------------------------------------------------------------  */
 #mapa{
     background-color: white;
-    max-height: 90vh;
+    /* max-height: 90vh; */
 }
 .myMap{
     padding-top: 1rem;
@@ -275,6 +275,17 @@ img{
 #map {
     max-width: 100%;
 }
+.doprava-section {
+    margin-top: -5px;
+    padding-top: 50px;
+}
+.doprava-link {
+    font-family: 'Barlow', sans-serif;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align:center;
+}
 /*-------------------------------------------------------------------------
  program
  ------------------------------------------------------------------------- */
@@ -284,12 +295,23 @@ img{
     background-color: white;
     padding-bottom: 3rem;
 }
+.program-item {
+    font-family: 'Barlow', sans-serif;
+    padding-left: 40px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.program-time {
+    font-weight: 400;
+}
 .program-text{
     width: 320px;
     margin: 0 auto;
     text-align: left;
     border-left: 0.5px solid goldenrod;
     padding-bottom: 1rem;
+    line-height: 1.6;
 }
 .program-text p{
     text-align: left;
